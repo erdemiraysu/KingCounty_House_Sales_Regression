@@ -49,14 +49,11 @@ The variables/features included in the dataset are:
 * Invest on increasing the total **square footage of the house** as much as possible (rather than investing on the **lot size**). Every other feature kept constant, for every **1000** sqft increase in the house size, price increases by about **22%**.
 
 ***
-
+![view_waterfront _to_Price](https://user-images.githubusercontent.com/61121277/186290603-ac13b86d-bd46-4d1b-9eda-27ea75c56912.png)
 Being on **waterfront** increases the house price by **67%**, so invest on houses on waterfront. 
 
 ***
-![month_price-relationship](https://user-images.githubusercontent.com/61121277/186287275-ed5da1d7-bde2-4b31-8ee3-d422c69a43f9.png)
-
 ![month_price-relationship](https://user-images.githubusercontent.com/61121277/186287778-89776392-5e72-46e4-a99a-f0d95cfeb8a4.png)
-
 * Put the house on the market in **April** which increases the price by **6.8%** compared to winter-fall or summer. The next best month is **March** with a **5.6%** increase. 
 
 ***
