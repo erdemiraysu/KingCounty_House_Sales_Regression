@@ -43,6 +43,8 @@ The variables/features included in the dataset are:
 * Draw conclusions and make suggestions about the kind of houses to invest on. 
 
 ## Results and Conclusions
+The final model has an R-squared value of 0.753 means that the dependent variables explain 75% of the variability in price. 
+![coefs](https://user-images.githubusercontent.com/61121277/186297292-9659440c-118a-4762-b032-5fa12dc07cca.png)
 
 ***
 ![sqft_living_sqft_lot](https://user-images.githubusercontent.com/61121277/186287087-e670c50b-cae7-4ef3-b8b3-84fde0550442.png)
