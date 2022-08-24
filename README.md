@@ -53,7 +53,7 @@ The variables/features included in the dataset are:
 * Being on **waterfront** increases the house price by **67%**, so invest on houses on waterfront. 
 
 ***
-![month_price-relationship](https://user-images.githubusercontent.com/61121277/186287778-89776392-5e72-46e4-a99a-f0d95cfeb8a4.png)
+![month_price-relationship](https://user-images.githubusercontent.com/61121277/186293381-2b22e79b-80f2-4f3b-a6ba-0ad98724206e.png)
 * Put the house on the market in **April** which increases the price by **6.8%** compared to winter-fall or summer. The next best month is **March** with a **5.6%** increase. 
 
 ***
