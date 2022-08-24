@@ -54,6 +54,9 @@ Being on **waterfront** increases the house price by **67%**, so invest on house
 
 ***
 ![month_price-relationship](https://user-images.githubusercontent.com/61121277/186287275-ed5da1d7-bde2-4b31-8ee3-d422c69a43f9.png)
+
+![month_price-relationship](https://user-images.githubusercontent.com/61121277/186287778-89776392-5e72-46e4-a99a-f0d95cfeb8a4.png)
+
 * Put the house on the market in **April** which increases the price by **6.8%** compared to winter-fall or summer. The next best month is **March** with a **5.6%** increase. 
 
 ***
