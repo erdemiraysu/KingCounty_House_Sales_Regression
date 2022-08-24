@@ -50,7 +50,7 @@ The variables/features included in the dataset are:
 
 ***
 ![view_waterfront _to_Price](https://user-images.githubusercontent.com/61121277/186290603-ac13b86d-bd46-4d1b-9eda-27ea75c56912.png)
-Being on **waterfront** increases the house price by **67%**, so invest on houses on waterfront. 
+* Being on **waterfront** increases the house price by **67%**, so invest on houses on waterfront. 
 
 ***
 ![month_price-relationship](https://user-images.githubusercontent.com/61121277/186287778-89776392-5e72-46e4-a99a-f0d95cfeb8a4.png)
@@ -58,17 +58,26 @@ Being on **waterfront** increases the house price by **67%**, so invest on house
 
 ***
 ![LocationMap](https://user-images.githubusercontent.com/61121277/186287329-6817dec1-a8bd-4d6b-b1b3-01578f44e9fd.png)
-Invest on houses in **Seattle** for **70%** increase in price, and **Medina, Bellevue, Mercer Island or Kirkland** for a 62% increase compared to the South.
+* Invest on houses in **Seattle** for **70%** increase in price, and **Medina, Bellevue, Mercer Island or Kirkland** for a 62% increase compared to the South.
 
-## Limitations and Improvements
+
+## Limitations 
 ***
-* Small sample size - due to lack of budget and gross information. Perform API calls or wed scraping to increase sample size. 
-* Movie names not coded the same way in different datasets - perform a more rigorous cleaning.
-* Gather more information about Microsoft’s allocated budget to be able to provide more sensitive suggestions.
+* Skewed data required outlier removal or data transformation which made the interpretations trickier. 
+* Although Zipcodes provided very useful information with regard to price, I did not feel comfortable using all 70 categories in the regression model. 
+* City to Zipcode mapping did not work due to the zipcode and city boundaries not being the same - many zipcodes belonging to various cities and vice versa. Total number of cities were also more than desired: 32. 
+
+## Improvements
+***
+* Gather more detailed location info using API calls. 
+* Using cluster analysis group zipcodes into more meaningful clusters. 
 
 ***
-* The full analysis is in the [jupyter notebook](https://github.com/erdemiraysu/Movies_EDA_Project1/blob/master/MovieProject_Notebook.ipynb). The pdf version of the same notebook is [here](https://github.com/erdemiraysu/Movies_EDA_Project1/blob/master/MovieProject_Notebook.pdf). 
-* Summary of the main findings are in the [presentation](https://github.com/erdemiraysu/Movies_EDA_Project1/blob/master/Presentation.pdf). 
+* The full analysis is in the [jupyter notebook](https://github.com/erdemiraysu/KingCountySales_Regression_Project2/tree/master/student.ipynb)
+
+* The pdf version of the same notebook is [here](https://github.com/erdemiraysu/KingCountySales_Regression_Project2/tree/master/student.pdf). 
+
+* Summary of the main findings are in the [presentation](https://github.com/erdemiraysu/Movies_EDA_Project1/blob/Presentation.pdf). 
 
 ## Repository Structure
     .
