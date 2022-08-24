@@ -9,8 +9,7 @@ We Buy Ugly Houses is a real estate investor (House Flipper) thay operates in Ki
 
 ## Data
 ***
-
-King County House Sales dataset is in the folder [Data] (https://github.com/erdemiraysu/KingCountySales_Regression_Project2/tree/master/Data). It contains house sale prices for King County sold between May 2014 and May 2015.
+King County House Sales dataset is in the folder [Data](https://github.com/erdemiraysu/KingCountySales_Regression_Project2/tree/master/data). It contains house sale prices for King County sold between May 2014 and May 2015.
 
 The variables/features included in the dataset are:
 
@@ -36,7 +35,6 @@ The variables/features included in the dataset are:
 * `sqft_living15` - The square footage of interior housing living space for the nearest 15 neighbors
 * `sqft_lot15` - The square footage of the land lots of the nearest 15 neighbors
 
-
 ## Methods
 *** 
 * Clean the dataset.
@@ -47,10 +45,7 @@ The variables/features included in the dataset are:
 ## Results and Conclusions
 
 ***
-WHAT GENRES OF MOVIES TO MAKE?
-
 ![sqft_living_sqft_lot](https://user-images.githubusercontent.com/61121277/186287087-e670c50b-cae7-4ef3-b8b3-84fde0550442.png)
-
 * Invest on increasing the total **square footage of the house** as much as possible (rather than investing on the **lot size**). Every other feature kept constant, for every **1000** sqft increase in the house size, price increases by about **22%**.
 
 ***
@@ -78,10 +73,9 @@ Invest on houses in **Seattle** for **70%** increase in price, and **Medina, Bel
 ## Repository Structure
     .
     ├── images 
-    ├── zippedData 
-    ├── MovieProject_Notebook.ipynb     
-    ├── MovieProject_Notebook.pdf 
+    ├── data 
+    ├── student.ipynb     
+    ├── student.pdf 
     ├── presentation.pdf                                             
-    ├── README.md 
-    └── movie_data_erd.jpeg   
+    └── README.md   
 
