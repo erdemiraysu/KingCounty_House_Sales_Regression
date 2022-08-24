@@ -73,9 +73,9 @@ The variables/features included in the dataset are:
 * Using cluster analysis group zipcodes into more meaningful clusters. 
 
 ***
-* The full analysis is in the [jupyter notebook](https://github.com/erdemiraysu/KingCountySales_Regression_Project2/tree/master/student.ipynb)
+* The full analysis is in the [jupyter notebook](https://github.com/erdemiraysu/KingCountySales_Regression_Project2/tree/master/KingCountySales.ipynb)
 
-* The pdf version of the same notebook is [here](https://github.com/erdemiraysu/KingCountySales_Regression_Project2/tree/master/student.pdf). 
+* The pdf version of the same notebook is [here](https://github.com/erdemiraysu/KingCountySales_Regression_Project2/tree/master/KingCountySales.pdf). 
 
 * Summary of the main findings are in the [presentation](https://github.com/erdemiraysu/Movies_EDA_Project1/blob/Presentation.pdf). 
 
@@ -83,8 +83,8 @@ The variables/features included in the dataset are:
     .
     ├── images 
     ├── data 
-    ├── student.ipynb     
-    ├── student.pdf 
+    ├── KingCountySales.ipynb     
+    ├── KingCountySales.pdf 
     ├── presentation.pdf                                             
     └── README.md   
 
