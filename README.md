@@ -42,7 +42,7 @@ The variables/features included in the dataset are:
 * Check the linear regression assumptions to make sure normality, homoscadecity are not violated and multicollinearity does not present.
 * Draw conclusions and make suggestions about the kind of houses to invest on. 
 
-## Results and Conclusions
+## Results, Conclusions and Recommendations
 ![TornadoPlot_Coefs](https://user-images.githubusercontent.com/61121277/186548650-fd23c6a4-a228-40a7-a7db-0aa47bed3d1b.png)
 * The final model has an R-squared value of 0.753 means that the dependent variables explain 75% of the variability in price. 
 * `Square footage of the house` is the most important variable impacting house price.  
