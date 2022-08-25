@@ -43,43 +43,43 @@ The variables/features included in the dataset are:
 * Draw conclusions and make suggestions about the kind of houses to invest on. 
 
 ## Results and Conclusions
-The final model has an R-squared value of 0.753 means that the dependent variables explain 75% of the variability in price. 
-![coefs](https://user-images.githubusercontent.com/61121277/186297292-9659440c-118a-4762-b032-5fa12dc07cca.png)
+![TornadoPlot_Coefs](https://user-images.githubusercontent.com/61121277/186548650-fd23c6a4-a228-40a7-a7db-0aa47bed3d1b.png)
+* The final model has an R-squared value of 0.753 means that the dependent variables explain 75% of the variability in price. 
+* `Square footage of the house` is the most important variable impacting house price.  
 
 ***
-![sqft_living_sqft_lot](https://user-images.githubusercontent.com/61121277/186287087-e670c50b-cae7-4ef3-b8b3-84fde0550442.png)
-* Invest on increasing the total **square footage of the house** as much as possible (rather than investing on the **lot size**). Every other feature kept constant, for every **1000** sqft increase in the house size, price increases by about **22%**.
+![sqft_living_sqft_lot](https://user-images.githubusercontent.com/61121277/186549050-edb3140c-e940-4867-bdc5-9cdb50c099ec.png)
+* Invest on increasing the total **square footage of the house** as much as possible (more than investing on the **lot size**). Every other feature kept constant, for every **1000** sqft increase in the house size, price increases by about **22%**.
 
 ***
-![view_waterfront _to_Price](https://user-images.githubusercontent.com/61121277/186290603-ac13b86d-bd46-4d1b-9eda-27ea75c56912.png)
-* Being on **waterfront** increases the house price by **67%**, so invest on houses on waterfront. 
+![waterfront _to_Price](https://user-images.githubusercontent.com/61121277/186548886-b6f08e50-cff4-4b0c-8f14-1903a592ff2b.png)
+* Being on **waterfront** increases the house price by **68%**, so invest on houses on waterfront. 
 
 ***
-![month_price-relationship](https://user-images.githubusercontent.com/61121277/186296143-88aecf0f-104f-4fad-adcf-d7515c878b03.png)
-* Put the house on the market in **April** which increases the price by **6.8%** compared to winter-fall or summer. The next best month is **March** with a **5.6%** increase. 
+![month_price-relationship](https://user-images.githubusercontent.com/61121277/186548930-9b33a51c-1ec1-4798-96a9-bbaba72b7e2b.png)
+* Put the house on the market in **April** which increases the price by **6.98%** compared to winter-fall or summer. The next best month is **March** with a **5.6%** increase. 
 
 ***
-![LocationMap](https://user-images.githubusercontent.com/61121277/186287329-6817dec1-a8bd-4d6b-b1b3-01578f44e9fd.png)
+![LocationMap](https://user-images.githubusercontent.com/61121277/186548975-4db5078c-bd32-41c9-84a5-5201c2c2c74a.png)
 * Invest on houses in **Seattle** for **70%** increase in price, and **Medina, Bellevue, Mercer Island or Kirkland** for a 62% increase compared to the South.
-
 
 ## Limitations 
 ***
-* Skewed data required outlier removal or data transformation which made the interpretations trickier. 
-* Although Zipcodes provided very useful information with regard to price, I did not feel comfortable using all 70 categories in the regression model. 
-* City to Zipcode mapping did not work due to the zipcode and city boundaries not being the same - many zipcodes belonging to various cities and vice versa. Total number of cities were also more than desired: 32. 
+* Skewed data required outlier removal or data transformation.
+* Zipcodes could not be used in regression due to the huge number of levels (70), and city to zipcode mapping did not work due to the zipcode and city boundaries overlapping.
+ 
 
 ## Improvements
 ***
-* Gather more detailed location info using API calls. 
-* Using cluster analysis group zipcodes into more meaningful clusters. 
+* Clustering zipcodes into meaningful groups would be helpful.
+* Gathering more detailed location info using API calls would enrich the modeling process.
 
 ***
 * The full analysis is in the [jupyter notebook](https://github.com/erdemiraysu/KingCountySales_Regression_Project2/tree/master/KingCountySales.ipynb)
 
 * The pdf version of the same notebook is [here](https://github.com/erdemiraysu/KingCountySales_Regression_Project2/tree/master/KingCountySales.pdf). 
 
-* Summary of the main findings are in the [presentation](https://github.com/erdemiraysu/Movies_EDA_Project1/blob/Presentation.pdf). 
+* Summary of the main findings are in the [presentation](https://github.com/erdemiraysu/Movies_EDA_Project1/blob/Presentation_KingCountySales.pdf). 
 
 ## Repository Structure
     .
@@ -87,6 +87,6 @@ The final model has an R-squared value of 0.753 means that the dependent variabl
     ├── data 
     ├── KingCountySales.ipynb     
     ├── KingCountySales.pdf 
-    ├── presentation.pdf                                             
+    ├── Presentation_KingCountySales.pdf                                             
     └── README.md   
 
