@@ -75,11 +75,11 @@ The variables/features included in the dataset are:
 * Gathering more detailed location info using API calls would enrich the modeling process.
 
 ***
-* The full analysis is in the [jupyter notebook](https://github.com/erdemiraysu/KingCountySales_Regression_Project2/tree/master/KingCountySales.ipynb)
+* The full analysis is in the [jupyter notebook](https://github.com/erdemiraysu/KingCountySales_Regression_Project2/tree/master/Notebook.ipynb)
 
-* The pdf version of the same notebook is [here](https://github.com/erdemiraysu/KingCountySales_Regression_Project2/tree/master/KingCountySales.pdf). 
+* The pdf version of the same notebook is [here](https://github.com/erdemiraysu/KingCountySales_Regression_Project2/tree/master/Notebook.pdf). 
 
-* Summary of the main findings are in the [presentation](https://github.com/erdemiraysu/Movies_EDA_Project1/blob/Presentation_KingCountySales.pdf). 
+* Summary of the main findings are in the [presentation](https://github.com/erdemiraysu/Movies_EDA_Project1/blob/Presentation.pdf). 
 
 ## Repository Structure
     .
