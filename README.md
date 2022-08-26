@@ -38,14 +38,15 @@ The variables/features included in the dataset are:
 ## Methods
 *** 
 * Clean the dataset.
+* Conduct feature engineering on the variables. 
 * Build a series of linear regression models to come up with the best model to describe the relationship between the independent variables and the target/dependent variable (`house price`). 
-* Check the linear regression assumptions to make sure normality, homoscadecity are not violated and multicollinearity does not present.
+* Check the linear regression assumptions to make sure normality, homoscadescacity are not violated and multicollinearity is not present.
 * Draw conclusions and make suggestions about the kind of houses to invest on. 
 
 ## Results, Conclusions and Recommendations
-![TornadoPlot_Coefs](https://user-images.githubusercontent.com/61121277/186548650-fd23c6a4-a228-40a7-a7db-0aa47bed3d1b.png)
-* The final model has an R-squared value of 0.753 means that the dependent variables explain 75% of the variability in price. 
-* `Square footage of the house` is the most important variable impacting house price.  
+![TornadoPlot_Coefs](https://user-images.githubusercontent.com/61121277/186974673-9d880bbc-a3b7-4e77-8844-730837e03823.png)
+* The final model has an R-squared value of 0.753 means that the dependent variables explain 75% of the variability/change in price. 
+* `Square footage of the house` is the most important variable to impact house price.  
 
 ***
 ![sqft_living_sqft_lot](https://user-images.githubusercontent.com/61121277/186549050-edb3140c-e940-4867-bdc5-9cdb50c099ec.png)
@@ -57,16 +58,17 @@ The variables/features included in the dataset are:
 
 ***
 ![month_price-relationship](https://user-images.githubusercontent.com/61121277/186548930-9b33a51c-1ec1-4798-96a9-bbaba72b7e2b.png)
-* Put the house on the market in **April** which increases the price by **6.98%** compared to winter-fall or summer. The next best month is **March** with a **5.6%** increase. 
+* Put the house on the market in **April** which increases the price by **6.98%** if sold, compared to winter-fall or summer. The next best month is **March** with a **5.6%** increase. 
 
 ***
 ![LocationMap](https://user-images.githubusercontent.com/61121277/186548975-4db5078c-bd32-41c9-84a5-5201c2c2c74a.png)
-* Invest on houses in **Seattle** for **70%** increase in price, and **Medina, Bellevue, Mercer Island or Kirkland** for a 62% increase compared to the South.
+* Invest on houses in **Seattle** area for **70%** increase in price, and **Medina, Bellevue, Mercer Island or Kirkland** for a 62% increase compared to the South.
 
 ## Limitations 
 ***
 * Skewed data required outlier removal or data transformation.
-* Zipcodes could not be used in regression due to the huge number of levels (70), and city to zipcode mapping did not work due to the zipcode and city boundaries overlapping.
+* Zipcodes could not be used in regression due to the large number of levels (70)
+* City to zipcode mapping did not work due to the zipcode and city boundaries overlapping.
  
 
 ## Improvements
@@ -80,6 +82,11 @@ The variables/features included in the dataset are:
 * The pdf version of the same notebook is [here](https://github.com/erdemiraysu/KingCountySales_Regression_Project2/tree/master/Notebook.pdf). 
 
 * Summary of the main findings are in the [presentation](https://github.com/erdemiraysu/KingCountySales_Regression_Project2/tree/master/Presentation.pdf). 
+
+## Contact Info:
+* Email: erdemiraysu@gmail.com
+* GitHub: @erdemiraysu
+* [LinkedIn](linkedin.com/in/aysuerdemir/)
 
 ## Repository Structure
     .
