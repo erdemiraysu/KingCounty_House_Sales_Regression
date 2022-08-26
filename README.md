@@ -83,11 +83,6 @@ The variables/features included in the dataset are:
 
 * Summary of the main findings are in the [presentation](https://github.com/erdemiraysu/KingCountySales_Regression_Project2/tree/master/Presentation.pdf). 
 
-## Contact Info:
-* Email: erdemiraysu@gmail.com
-* GitHub: [@erdemiraysu](https://github.com/erdemiraysu/)
-* [LinkedIn](https://www.linkedin.com/in/aysuerdemir)
-
 ## Repository Structure
     .
     ├── images 
@@ -96,4 +91,13 @@ The variables/features included in the dataset are:
     ├── Notebook.pdf 
     ├── Presentation.pdf                                             
     └── README.md   
+
+***
+## THANK YOU FOR READING!
+***
+
+## Contact Info:
+* Email: erdemiraysu@gmail.com
+* GitHub: [@erdemiraysu](https://github.com/erdemiraysu/)
+* [LinkedIn](https://www.linkedin.com/in/aysuerdemir)
 
