@@ -92,10 +92,6 @@ The variables/features included in the dataset are:
     ├── Presentation.pdf                                             
     └── README.md   
 
-***
-## THANK YOU FOR READING!
-***
-
 ## Contact Info:
 * Email: erdemiraysu@gmail.com
 * GitHub: [@erdemiraysu](https://github.com/erdemiraysu/)
