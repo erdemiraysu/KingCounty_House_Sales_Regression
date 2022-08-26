@@ -86,14 +86,14 @@ The variables/features included in the dataset are:
 ## Contact Info:
 * Email: erdemiraysu@gmail.com
 * GitHub: [@erdemiraysu](https://github.com/erdemiraysu/)
-* [LinkedIn](linkedin.com/in/aysuerdemir/](https://www.linkedin.com/in/aysuerdemir)
+* [LinkedIn](https://www.linkedin.com/in/aysuerdemir)
 
 ## Repository Structure
     .
     ├── images 
     ├── data 
-    ├── KingCountySales.ipynb     
-    ├── KingCountySales.pdf 
-    ├── Presentation_KingCountySales.pdf                                             
+    ├── Notebook.ipynb     
+    ├── Notebook.pdf 
+    ├── Presentation.pdf                                             
     └── README.md   
 
