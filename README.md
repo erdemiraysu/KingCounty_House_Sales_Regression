@@ -84,13 +84,13 @@ The variables/features included in the dataset are:
 * Summary of the main findings are in the [presentation](https://github.com/erdemiraysu/KingCountySales_Regression_Project2/tree/master/Presentation.pdf). 
 
 ## Repository Structure
-    .
-    ├── images 
-    ├── data 
-    ├── Notebook.ipynb     
-    ├── Notebook.pdf 
-    ├── Presentation.pdf                                             
-    └── README.md   
+
+    ├── images                          Images folder, containing all referenced image files
+    ├── data                            Data folder, included in this repository
+    ├── Notebook.ipynb                  Main Jupyter notebook, contains analysis
+    ├── Notebook.pdf                    Pdf version of main Jupyter notebook
+    ├── presentation.pdf                PDF Version of project presentation                             
+    ├── README.md                       The top-level README
 
 ## Contact Info:
 * Email: erdemiraysu@gmail.com
